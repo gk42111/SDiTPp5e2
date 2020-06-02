@@ -11,4 +11,3 @@ public:
 	double Area();
 	~Triangle();
 };
-

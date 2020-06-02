@@ -1,7 +1,7 @@
 #include "EquilateralTriangle.h"
 #include <cmath>
 
-EquilateralTriangle::EquilateralTriangle(int X, int Y, double Side) : Triangle(X,Y)
+EquilateralTriangle::EquilateralTriangle(int X, int Y, double Side) : Triangle(X, Y)
 {
 	this->Side = Side;
 	Sides = new double[NumbersOfSides];
